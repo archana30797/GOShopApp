@@ -16,8 +16,8 @@ public class client
 	{
 		// Step 1 - Step a
 		GSShopFactory gssfactory = new GSShopFactory();
-		gssfactory.getNewPrimeAccount(123, "Vikas", 1000, true);
-		gssfactory.getNewNormalAccount(111, "Vikas2", 1000, 50);
+		gssfactory.getNewPrimeAccount(001, "Archana", 5000, true);
+		gssfactory.getNewNormalAccount(002, "madhuri", 5000, 90);
 		
 		
 		// Step 2
@@ -26,7 +26,7 @@ public class client
 		gsprime.getAccNo();
 		gsprime.getCharges();
 		// Step 4 / Step d.
-		gsprime.bookProduct(1000);
+		gsprime.bookProduct(5000);
 		
 		// Step 5 / Step e.
 		gsprime.toString();
@@ -39,7 +39,7 @@ public class client
 		gsnormal.getDeliveryCharge();
 		
 		// Step 4 / Step d.
-		gsnormal.bookProduct(1000);
+		gsnormal.bookProduct(5000);
 		// Step 5 / Step e.
 		gsnormal.toString();
 	
